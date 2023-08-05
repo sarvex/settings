@@ -1,4 +1,10 @@
 {
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "breadcrumbs.symbolSortOrder": "type",
   "C_Cpp.autocompleteAddParentheses": true,
   "C_Cpp.clang_format_sortIncludes": true,
@@ -19,6 +25,7 @@
   "cSpell.userWords": [
     "aalt",
     "astro",
+    "astrojs",
     "autofetch",
     "autohide",
     "Brogrammer",
@@ -30,9 +37,11 @@
     "Cmder",
     "commandline",
     "Consolas",
+    "cpptools",
     "Darcula",
     "dlig",
     "easymotion",
+    "esbenp",
     "falt",
     "Galizur",
     "Gruvbox",
@@ -59,6 +68,7 @@
     "nord",
     "Nushell",
     "osascript",
+    "Overtype",
     "palt",
     "Paraiso",
     "Rebecca",
@@ -75,6 +85,7 @@
     "startdir",
     "Sundried",
     "Synthwave",
+    "tailwindcss",
     "textwidth",
     "Thayer",
     "Treehouse",
@@ -97,7 +108,8 @@
   "diffEditor.experimental.showMoves": true,
   "diffEditor.experimental.useVersion2": true,
   "editor.acceptSuggestionOnEnter": "smart",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line-thin",
@@ -117,9 +129,6 @@
     120
   ],
   "editor.semanticHighlighting.enabled": true,
-  "editor.semanticTokenColorCustomizations": {
-    "enabled": true, // enable for all themes
-  },
   "editor.smoothScrolling": true,
   "editor.stablePeek": true,
   "editor.suggest.shareSuggestSelections": true,
@@ -170,6 +179,11 @@
     "vue-html": "html"
   },
   "emmet.showSuggestionsAsSnippets": true,
+  "emmet.syntaxProfiles": {
+    "html": {
+      "self_closing_tag": true
+    }
+  },
   "emmet.triggerExpansionOnTab": true,
   "eslint.lintTask.enable": true,
   "eslint.packageManager": "pnpm",
@@ -257,12 +271,19 @@
   "go.inlayHints.rangeVariableTypes": true,
   "go.lintTool": "revive",
   "go.toolsManagement.autoUpdate": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true,
   "peacock.affectActivityBar": false,
+  "peacock.affectDebuggingStatusBar": true,
   "peacock.affectPanelBorder": true,
+  "peacock.affectTabActiveBorder": true,
   "peacock.affectTitleBar": false,
   "peacock.showColorInStatusBar": false,
   "peacock.surpriseMeOnStartup": true,
   "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "svg.completion.emmet": true,
+  "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.sendKeybindingsToShell": true,
   "window.autoDetectColorScheme": true,
   "window.commandCenter": true,
@@ -272,18 +293,12 @@
   "workbench.experimental.cloudChanges.autoStore": "onShutdown",
   "workbench.experimental.cloudChanges.partialMatches.enabled": true,
   "workbench.experimental.share.enabled": true,
-  "workbench.iconTheme": "bearded-icons",
+  "workbench.iconTheme": "ayu",
   "workbench.list.smoothScrolling": true,
   "workbench.localHistory.maxFileEntries": 64,
   "workbench.localHistory.mergeWindow": 16,
   "workbench.preferredDarkColorTheme": "Rosé Pine",
   "workbench.preferredLightColorTheme": "Rosé Pine Moon",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "right",
-  "notebook.formatOnCellExecution": true,
-  "notebook.formatOnSave.enabled": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "[jsonc]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
+  "workbench.sideBar.location": "right"
 }

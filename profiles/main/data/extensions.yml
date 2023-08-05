@@ -12,6 +12,10 @@ enabled:
     uuid: 1b7bdcac-09ba-421c-bdde-081928177de7
   - id: BeardedBear.beardedtheme
     uuid: d1818e93-bccc-4812-8b8b-37aabc5a7a94
+  - id: bierner.markdown-mermaid
+    uuid: f8d0ffc4-66bb-4a9c-8149-ef8f043691a1
+  - id: bierner.markdown-preview-github-styles
+    uuid: 5cbdf58a-694a-4aba-af08-61d00842eb03
   - id: bmewburn.vscode-intelephense-client
     uuid: ffda6552-0ad5-431b-a4fa-0905a7e4f3f0
   - id: bradlc.vscode-tailwindcss
@@ -40,8 +44,16 @@ enabled:
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evgeniypeshkov.syntax-highlighter
     uuid: 428c36f5-be8e-4df8-8992-233bf5aef31f
+  - id: exiasr.hadolint
+    uuid: c0f361c5-4179-43c5-9cb5-c4eba77388b4
+  - id: felixfbecker.php-debug
+    uuid: 60b4ad61-eb2a-47f3-b361-aa84fb4288ac
+  - id: felixfbecker.php-intellisense
+    uuid: 5e69f001-f945-4c97-baf0-320d82a153b3
   - id: fwcd.kotlin
     uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
   - id: GitHub.vscode-pull-request-github
@@ -56,6 +68,8 @@ enabled:
     uuid: e1ab76b1-9acd-4ffa-baf7-1d9eaf7cf3d2
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
+  - id: GulajavaMinistudio.mayukaithemevsc
+    uuid: 9512804a-4de2-4348-9387-3c04e8c7876e
   - id: hashicorp.terraform
     uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
   - id: haskell.haskell
@@ -64,8 +78,12 @@ enabled:
     uuid: fcc7f3d5-c349-4329-85ab-4760fc641520
   - id: hbenl.vscode-test-explorer
     uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
+  - id: hediet.vscode-drawio
+    uuid: ea6a6046-2132-421f-a984-664909fcf0b8
   - id: hirosystems.clarity-lsp
     uuid: 2ed468ad-b34c-4443-9d25-8fbede97a12f
+  - id: jebbs.plantuml
+    uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: joaopalmeiro.icons-octicons
     uuid: 1d80c936-fc23-4d58-86a4-9ef318ef9e84
   - id: jock.svg
@@ -128,6 +146,8 @@ enabled:
     uuid: 6ef63bba-e6b8-4209-b562-9a927f36ae8f
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
+  - id: oouo-diogo-perdigao.docthis
+    uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: pflannery.vscode-versionlens
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
   - id: Prisma.prisma
@@ -148,6 +168,8 @@ enabled:
     uuid: c6f87c08-f5ca-4f59-8cee-bc29464dcbfb
   - id: serayuzgur.crates
     uuid: 6a95a3fd-3a5d-4326-b8ab-1b1653b1f183
+  - id: sleistner.vscode-fileutils
+    uuid: d637104e-1fd7-4063-98fc-8afe46012c9b
   - id: streetsidesoftware.code-spell-checker
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: stylelint.vscode-stylelint
@@ -162,6 +184,8 @@ enabled:
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tboox.xmake-vscode
     uuid: 0a557dab-a29c-4009-833d-163c190d9212
+  - id: timonwong.shellcheck
+    uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: twxs.cmake
     uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
   - id: usernamehw.errorlens
